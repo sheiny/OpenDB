@@ -38,7 +38,7 @@ add_subdirectory(tests/cpp)
 ################################# SWIG #####################################
 ############################################################################
 
-find_package(SWIG 3.0 REQUIRED)
+find_package(SWIG REQUIRED)
 
 include(${SWIG_USE_FILE})
 
